@@ -1,0 +1,50 @@
+.center-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  width: 100%;
+  padding: 20px; /* Add padding to the container */
+}
+
+.page-title {
+  font-size: 24px;
+  margin-bottom: 25px;
+  color: #1c1b1b;
+}
+
+.reservation-table {
+  width: 100%;
+  max-width: 800px; /* Limit the table width */
+  margin-bottom: 20px; /* Add margin below the table */
+  border-collapse: collapse; /* Ensure borders collapse into a single border */
+}
+
+.reservation-table th, .reservation-table td {
+  padding: 12px; /* Add padding to table cells */
+  text-align: left;
+  border: 1px solid #ddd; /* Add border to table cells */
+}
+
+.reservation-table th {
+  background-color: #f2f2f2; /* Background color for header */
+}
+
+.pagination {
+  float: right;
+  margin-top: 10px;
+}
+
+.icon1{
+  font-size: 20px;
+}
+
+.icon2{
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+.icon1,.icon2:hover{
+  cursor: pointer;
+}
